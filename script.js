@@ -43,7 +43,7 @@ const storyStages = {
     hopePrinceFindsYou: {
         text: "The prince visits your home, and when he tries the glass slipper on your foot, it fits perfectly! He realizes you are the one he danced with at the ball. The two of you are married, and you live happily ever after in the palace, free from your stepmother's cruel grip.",
         choices: [],
-        image: "cinderella_home.jpg"
+        image: "cinderella_home.jpgg"
     },
     waitForPrince: {
         text: "You hide in the shadows, and the prince searches the kingdom, determined to find the woman who fits the slipper. Unfortunately, the slipper doesn’t fit anyone else, and he is heartbroken. But he eventually finds you, and you live happily ever after together.",
@@ -79,7 +79,7 @@ function updateGame() {
 
     // Update the image
     const imageUrl = stage.image;
-    document.getElementById('story-image').src = imageUrl;
+    document.getElementById('story-image.jpg').src = imageUrl;
 
     // Update the choices
     const choicesDiv = document.getElementById('choices');
